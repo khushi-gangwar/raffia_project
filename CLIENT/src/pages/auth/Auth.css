@@ -1,0 +1,23 @@
+.form{
+    width:30%;
+}
+.form-btn{
+    width:35%
+}
+@media screen and (max-width: 600px) {
+    .form{
+        width:100%;
+    }
+    .bottom{
+        font-size: small;
+    }
+    .form-btn{
+        width:45%
+    }
+    
+}
+@media screen and (max-width: 800px){
+    .form{
+        width: 80%;
+    }
+}
