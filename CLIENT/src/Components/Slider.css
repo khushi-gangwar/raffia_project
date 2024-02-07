@@ -8,11 +8,11 @@
     display: grid;
     gap: 18px;
     overflow-x: auto;
-    grid-template-columns: (5, 1fr);
+    grid-template-columns: (4, 1fr);
     scrollbar-width: none;
 }
 .slider-wrapper .image-list .image-item{
-  width:105px;
-  height:300px;
+  width:55rem;
+  height:20rem;
   object-fit: cover;
 }

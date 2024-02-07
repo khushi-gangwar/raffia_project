@@ -1,0 +1,19 @@
+.main{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.centered {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centered-btm{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

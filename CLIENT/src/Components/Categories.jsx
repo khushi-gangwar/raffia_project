@@ -15,14 +15,14 @@ const Categories = () => {
         justifyContent={"center"}
       >
         <span className="d-flex flex-column justify-content-center mx-3">
-          <Avatar style={{margin:"auto"}}>
+          <Avatar style={{margin:"auto"}} className="shadow-sm">
             <ShoppingBagIcon />
           </Avatar>
           <p className="card-body">Jumbo bags</p>
         </span>
 
         <span className="d-flex flex-column justify-content-center mx-3">
-          <Avatar sx={{ bgcolor: pink[500] }} style={{margin:"auto"}}>
+          <Avatar sx={{ bgcolor: pink[500] }} style={{margin:"auto"}} className="shadow-sm">
             <ShoppingBagIcon />
           </Avatar>
           <p className="card-body">Woven bags</p>
@@ -30,7 +30,7 @@ const Categories = () => {
 
         <span className="d-flex flex-column justify-content-center mx-3">
           
-          <Avatar sx={{ bgcolor: green[500] }} style={{margin:"auto"}}>
+          <Avatar sx={{ bgcolor: green[500] }} style={{margin:"auto"}} className="shadow-sm"> 
             <ReorderIcon />
           </Avatar>
           <p className="card-body">Fabric</p>
@@ -39,7 +39,7 @@ const Categories = () => {
 
         <span className="d-flex flex-column justify-content-center mx-3">
           {" "}
-          <Avatar sx={{ bgcolor: blue[500] }} style={{margin:"auto"}}>
+          <Avatar sx={{ bgcolor: blue[500] }} style={{margin:"auto"}} className="shadow-sm">
             <ShoppingBagIcon />
           </Avatar>
           <p className="card-body">PP bags</p>
@@ -48,7 +48,7 @@ const Categories = () => {
 
         <span className="d-flex flex-column justify-content-center mx-3">
           {" "}
-          <Avatar style={{margin:"auto"}}>
+          <Avatar style={{margin:"auto"}} className="shadow-sm ">
             <ReorderIcon />
           </Avatar>
           <p className="card-body">Fabric bags</p>
@@ -57,18 +57,20 @@ const Categories = () => {
 
         <span className="d-flex flex-column justify-content-center mx-3">
           {" "}
-          <Avatar sx={{ bgcolor: pink[500] }} style={{margin:"auto"}}>
+          <Avatar sx={{ bgcolor: pink[500] }} style={{margin:"auto"}} className="shadow-sm ">
             <ShoppingBagIcon />
           </Avatar>
           <p className="card-body">Jumbo bags</p>
 
         </span>
 
-        <span className="d-flex justify-content-center mx-3 mt-0">
+        <span className="d-flex flex-column justify-content-center mx-3 ">
       
           <Avatar style={{margin:"auto" }}>
             <KeyboardArrowRightIcon />
           </Avatar>
+          <p className="card-body">More</p>
+
 
         </span>
       </Stack>

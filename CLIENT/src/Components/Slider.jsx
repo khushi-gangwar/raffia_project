@@ -1,16 +1,23 @@
 import "./Slider.css";
+import ImageComponent from "./ImageComponent";
 const Sliders = () => {
+const images=[
+  "/images/bag.jpg",
+  "/images/basket.jpg",
+  "/images/fabric.jpg",
+  "/images/hangers.jpg",
+  "/images/store.jpg"
+];
 
   return (
 
     <div className='slider'>
          <div className="slider-wrapper">
         <div className="image-list d-flex" >
-          <img src="/images/bag.jpg" style={{width:"50%"}} className='image-item' />
-          <img src="/images/basket.jpg" style={{width:"50%"}} className='image-item'/>
-          <img src="/images/fabric.jpg" style={{width:"50%"}} className='image-item'/>
-          <img src="/images/hangers.jpg" style={{width:"50%"}} className='image-item'/>
-          <img src="/images/store.jpg" style={{width:"50%"}} className='image-item'/>
+        {images.map((image, index) => (
+            <ImageComponent key={index} image={image} style={{width:"100%"}} className='image-item '/>
+          ))}
+       
         </div>
       </div>
     </div>
