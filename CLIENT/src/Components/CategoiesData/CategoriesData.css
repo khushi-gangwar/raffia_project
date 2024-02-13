@@ -1,0 +1,13 @@
+.category{
+    height:50px;
+    width:50px;
+}
+@media screen and (max-width:600px) {
+    .category{
+        height: 25px;
+        width:25px;
+    }
+    .card-body{
+        font-size:xx-small
+    }
+}

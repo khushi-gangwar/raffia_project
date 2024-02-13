@@ -1,0 +1,38 @@
+
+.slider{
+    align-items: center;
+    justify-content: center;
+    /* min-height: 50vh; */
+}
+.slider-wrapper .image-list{
+    display: grid;
+    gap: 18px;
+    overflow-x: auto;
+    grid-template-columns: (4, 2fr);
+    scrollbar-width: none;
+}
+.slider-wrapper .image-list .image-item{
+  width:20rem;
+  height:18rem;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 800px){
+  .slider-wrapper .image-list{
+    display: grid;
+    gap: 8px;
+    overflow-x: auto;
+    grid-template-columns: (3, 2fr);
+    scrollbar-width: none;
+}
+  .slider-wrapper .image-list .image-item{
+    width:10em;
+    height:15rem;
+    object-fit: cover;
+  }
+  /* .slider{
+    min-height: 20vh;
+
+  }
+   */
+}

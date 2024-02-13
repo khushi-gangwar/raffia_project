@@ -1,11 +1,14 @@
 import Categories from "../../Components/Categories";
-import Slider from "../../Components/Slider";
+import Slider from "../../Components/Slider/Slider";
 import Avatar from "@mui/material/Avatar";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
-import Buttons from "../../Components/Button";
-
+import Buttons from "../../Components/Buttons/Button";
+import "./Home.css"
 const Home = () => {
   return (
+    <>
+
+
     <div className="home">
       <h4 className="text-center my-4">Categories</h4>
       <Categories />
@@ -23,12 +26,10 @@ const Home = () => {
       {/* footer */}
       <div
         className="footer"
-        style={{ backgroundColor: "black", color: "white", height: "30vh" }}
+        style={{ backgroundColor: "black", color: "white",maxWidth:"100%" }}
       >
-        <p className="text-center my-5">© 2022 Raffia. All rights reserved</p>
-      </div>
-    </div>
+<img src="images/logo.png" style={{ width: "20%"}} className="mx-3" />      </div>
+    </div>  </>
   );
 };
-
 export default Home;

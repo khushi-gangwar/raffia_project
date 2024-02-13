@@ -3,7 +3,6 @@ const mongoURI = "mongodb://localhost:27017/demo?readPreference=primary&tls=fals
 
 const connectToMongo =()=>{
     mongoose.connect(mongoURI),
-        console.log("connected to mongo successfully");
-    
+        console.log("connected to mongo successfully");  
 }
 export default connectToMongo;

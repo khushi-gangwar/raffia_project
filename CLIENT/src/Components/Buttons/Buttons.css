@@ -1,0 +1,9 @@
+.button{
+    padding: 0.6em 1.5em  ;
+}
+@media screen and (max-width:600px) {
+    .button{
+        padding: 0.3em 1em;
+        font-size: small;
+    }
+}
